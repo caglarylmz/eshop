@@ -1,0 +1,86 @@
+/*GLOBALS*/
+body {
+  font-size: 13px;
+  color: #666;
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+p {
+  color: #7e7e7e;
+}
+a {
+  color: #347bc7;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*header Top*/
+.header-top ul li {
+  border-left: 1.2px solid #e0e0e0;
+  padding: 4px 10px 4px;
+  margin: 0px !important;
+}
+.header-top ul li:last-child {
+  border-right: 1.2px solid #e0e0e0;
+}
+.searchbox input:first-child {
+  height: 40px;
+  border-right: none;
+  border-color: #e8e8e8;
+}
+
+.nice-select {
+  height: 40px;
+  width: 150px;
+  background: #f8f8f8;
+}
+
+.nice-select.open,
+.nice-select:focus {
+  border-color: #e8e8e8;
+}
+/*user profile*/
+.top-user-img {
+  width: 21px;
+  height: 21px;
+  border-radius: 1px solid;
+}
+
+/*nth-of-type(1) : Aynı etikete sahip elemanları seçmek için kullamılır
+i2 navbar olduğu için biz 1. 'yi seçiyoruz. Onun içinde drowdown-menu elemanını
+seçelim*/
+header .navbar:nth-of-type(1).dropdown-menu {
+  top: 66px;
+}
+header .navbar:nth-of-type(1).dropdown-item {
+  padding: 5px 20px;
+  font-size: 13px;
+}
+.top-user .dropdown-menu {
+  border-radius: 0 0 12px 2px !important;
+  border-color: #6d7379;
+  border-style: solid none none;
+  border-width: 2px medium medium;
+  box-shadow: 0 0 23px rgba(69, 102, 173, 0.2);
+}
+.top-user .dropdown-menu i {
+  font-size: 12px;
+  width: 19px;
+}
+
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
