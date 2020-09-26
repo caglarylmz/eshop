@@ -1,21 +1,24 @@
 @import '~bootstrap/scss/bootstrap';
-@import '~primevue/resources/themes/nova-light/theme.css';
+@import '~primevue/resources/themes/bootstrap4-light-purple/theme.css';
 @import '~primevue/resources/primevue.min.css';
 @import '~primeicons/primeicons.css';
+@import '~primeflex/primeflex.min.css';
 @import './admin.scss';
 
 
-body{
-    font-family: 'Nunito',sans-serif !important;
+body {
+    font-family: 'Nunito', sans-serif !important;
 }
-.custom-btn{
+
+.custom-btn {
     padding: 0.5rem 2.5rem;
 }
-.sidebar-content{
+
+.sidebar-content {
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
 }
-.sidebar-content::-webkit-scrollbar{
+
+.sidebar-content::-webkit-scrollbar {
     display: none;
 }
-
