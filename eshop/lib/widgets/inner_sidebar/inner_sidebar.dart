@@ -8,6 +8,7 @@ class InnerSideBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenTypeLayout(
       mobile: InnerSideBarMobile(),
+      tablet: InnerSideBarDesktop(),
       desktop: InnerSideBarDesktop(),
     );
   }

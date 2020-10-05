@@ -9,6 +9,7 @@ class Navbar extends StatelessWidget {
     return ScreenTypeLayout(
       mobile: NavbarMobile(),
       tablet: NavbarTabletDesktop(),
+      desktop: NavbarTabletDesktop(),
     );
   }
 }

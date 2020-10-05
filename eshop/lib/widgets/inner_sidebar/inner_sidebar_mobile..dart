@@ -1,3 +1,4 @@
+import 'package:eshop/widgets/call_to_action/call_to_action.dart';
 import 'package:flutter/material.dart';
 
 class InnerSideBarMobile extends StatelessWidget {
@@ -6,7 +7,6 @@ class InnerSideBarMobile extends StatelessWidget {
     return Container(
       height: 80,
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text(
             'CATEGORY',
@@ -16,14 +16,13 @@ class InnerSideBarMobile extends StatelessWidget {
             height: 10,
           ),
           Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              Text("abc"),
-              Text("abc"),
-              Text("abc"),
-              Text("abc"),
-              Text("abc"),
-              Text("abc"),
+              CallToAction("1"),
+              CallToAction("2"),
+              CallToAction("3"),
+              CallToAction("4"),
+              CallToAction("5"),
             ],
           )
         ],
