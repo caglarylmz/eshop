@@ -1,4 +1,4 @@
-import 'package:eshop/views/home/home_ciew_desktop.dart';
+import 'package:eshop/views/home/home_view_desktop.dart';
 import 'package:eshop/views/home/home_view_mobile.dart';
 import 'package:eshop/widgets/centered_view/centered_view.dart';
 import 'package:eshop/widgets/navbar/navbar.dart';

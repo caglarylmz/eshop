@@ -24,6 +24,10 @@ public class JwtAuthenticationResponse {
 		this.email = email;
 		this.roles = roles;
 	}
+
+	public JwtAuthenticationResponse(String jwt) {
+		this.token=jwt;
+	}
 	
 	
 }

@@ -1,4 +1,4 @@
-import 'package:eshop/widgets/call_to_action/call_to_action.dart';
+import 'package:eshop/widgets/category_item/category_item.dart';
 import 'package:flutter/material.dart';
 
 class InnerSideBarMobile extends StatelessWidget {
@@ -15,15 +15,18 @@ class InnerSideBarMobile extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              CallToAction("1"),
-              CallToAction("2"),
-              CallToAction("3"),
-              CallToAction("4"),
-              CallToAction("5"),
-            ],
+          Expanded(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              children: [
+                CategoryItem("Büyükbaş"),
+                CategoryItem("Küçükbaş"),
+                CategoryItem("Kurbanlık"),
+                CategoryItem("Kanatlı"),
+                CategoryItem("Diğer Hayvanlar"),
+                CategoryItem("Yem Maddeleri"),
+              ],
+            ),
           )
         ],
       ),

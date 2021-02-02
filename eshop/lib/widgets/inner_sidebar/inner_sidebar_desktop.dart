@@ -1,4 +1,4 @@
-import 'package:eshop/widgets/call_to_action/call_to_action.dart';
+import 'package:eshop/widgets/category_item/category_item.dart';
 import 'package:flutter/material.dart';
 
 class InnerSideBarDesktop extends StatelessWidget {
@@ -19,11 +19,12 @@ class InnerSideBarDesktop extends StatelessWidget {
           ),
           Column(
             children: [
-              CallToAction("1"),
-              CallToAction("2"),
-              CallToAction("3"),
-              CallToAction("4"),
-              CallToAction("5"),
+              CategoryItem("Büyükbaş"),
+              CategoryItem("Küçükbaş"),
+              CategoryItem("Kurbanlık"),
+              CategoryItem("Kanatlı"),
+              CategoryItem("Diğer Hayvanlar"),
+              CategoryItem("Yem Maddeleri"),
             ],
           )
         ],
